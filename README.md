@@ -1,38 +1,36 @@
-# Wine Quality Explorer
-This is a Streamlit app that allows users to explore the Wine Quality dataset. Users can filter wines based on acidity, alcohol content, and quality using interactive sliders.
+# Explorateur de Qualité des Vins
+Ceci est une application Streamlit qui permet aux utilisateurs d'explorer le dataset Wine Quality. Vous pouvez filtrer les vins en fonction de leur acidité, teneur en alcool et qualité à l'aide de curseurs interactifs. Une façon élégante de jouer avec des données sans avoir besoin de déboucher une bouteille !
 
-## Getting Started
-### Prerequisites
-- Python 3.6 or higher
-- Docker (optional for containerization)
+## Prise en main
+### Prérequis
+Python 3.6 ou supérieur 
+Docker
 
-### Installation
-1. Clone this repository.
-2. Install the required Python packages:
+## Installation
+Clonez ce dépôt. Pas besoin de sommelier pour cette étape.
+Installez les paquets Python requis.
 
 pip install -r requirements.txt
 
-
-### Running the App
-To run the app, use:
-
 streamlit run app.py
 
+## Docker
+Pour les amateurs de conteneurs, voici comment faire tourner l'application dans un Docker. Et rassurez-vous, ce Docker-là ne coule pas !
 
-### Docker
-To run the app in a Docker container:
+Construisez l'image Docker :
 
-1. Build the Docker image:
-
+bash
+Copier le code
 docker build -t wine_quality_app .
+Lancez le conteneur Docker :
 
-2. Run the Docker container:
-
+bash
+Copier le code
 docker run -p 8501:8501 wine_quality_app
 
 
-### Usage
-Adjust the sliders to filter wines based on their properties. The app displays the filtered results and a histogram of wine quality distribution.
+## Utilisation
+Ajustez les curseurs pour filtrer les vins selon leurs propriétés. L’application affichera les résultats filtrés et un histogramme de la répartition des qualités des vins. Pas besoin de diplôme en œnologie pour comprendre le graphique, mais cela pourrait rendre vos prochains apéros plus intéressants.
 
-### License
-This project is licensed under the MIT License.
+## Licence
+Ce projet est sous licence MIT.

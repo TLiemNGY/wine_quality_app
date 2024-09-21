@@ -18,14 +18,9 @@ streamlit run app.py
 Pour les amateurs de conteneurs, voici comment faire tourner l'application dans un Docker. Et rassurez-vous, ce Docker-là ne coule pas !
 
 Construisez l'image Docker :
-
-bash
-Copier le code
 docker build -t wine_quality_app .
-Lancez le conteneur Docker :
 
-bash
-Copier le code
+Lancez le conteneur Docker :
 docker run -p 8501:8501 wine_quality_app
 
 

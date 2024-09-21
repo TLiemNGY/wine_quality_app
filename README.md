@@ -3,7 +3,8 @@ Ceci est une application Streamlit qui permet aux utilisateurs d'explorer le dat
 
 ## Prise en main
 ### Prérequis
-Python 3.6 ou supérieur 
+Python 3.6 ou supérieur
+
 Docker
 
 ## Installation
